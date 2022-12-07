@@ -91,8 +91,15 @@ figcaption {
 /** Images are allowed to be a little wider when broken out into their own container */
 
 .container.header-image {
-    max-width: 1200px;
+    max-width: 800px;
     padding: 0;
+}
+
+.caption,
+figcaption {
+    font-size: 0.9rem;
+    color: #8e8a8a;
+    padding: 5px 0;
 }
 
 /*********************************************************************
